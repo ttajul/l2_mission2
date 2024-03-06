@@ -12,6 +12,7 @@ export function App() {
     setImages(imageList);
   };
 
+  
   return (
     <div className="App">
       <ImageUploading
@@ -53,6 +54,7 @@ export function App() {
           </div>
         )}
       </ImageUploading>
+    
     </div>
   );
 }
